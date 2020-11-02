@@ -1,0 +1,40 @@
+﻿<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../maxi.xml</include>
+
+	<view name="system">
+
+		<image name="ControllerOverlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.2</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.3 0</size>
+			<path>./art/controller.svg</path>
+			<!--<color>8b0000</color>-->
+		</image>
+		
+		<image name="logo">
+			<path>./art/system.svg</path>
+        </image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+           <origin>0.5 0.5</origin>
+                   <pos>0.18 0.045</pos>
+                   <maxSize>0.36 0.09</maxSize>
+		</image>
+
+		
+	</view>
+
+	<view name="basic">		
+	</view>
+
+	<view name="detailed">
+	</view>
+	
+</theme>
